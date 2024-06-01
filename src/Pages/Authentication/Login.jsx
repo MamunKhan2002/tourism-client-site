@@ -1,14 +1,23 @@
 import { Link } from "react-router-dom";
 
+import login_image from '../../assets/picture/login-pic.png'
+
 const Login = () => {
     return (
-        <section className="bg-white dark:bg-gray-900">
-            <div className="container flex items-center justify-center min-h-screen px-6 mx-auto">
+        <div className="login_container flex rounded-2xl overflow-hidden shadow-lg bg-white  my-5">
+            <div className="hidden lg:w-1/2  relative lg:flex items-center justify-center">
+                <img className="" src={login_image} alt="" />
+                <div className="absolute top-5 text-center text-white bg-slate-700 w-full py-2 bg-opacity-45">
+                    <h1 className="text-3xl font-bold">Travelista Tours</h1>
+                    <p className="font-semibold">Travel is the only purchase that enriches you in ways <br /> beyond material wealth </p>
+                </div>
+            </div>
+            <div className="lg:w-1/2 container flex items-center justify-center px-6 mx-auto">
                 <form className="w-full max-w-md">
-                    {/* <img className="w-auto h-7 sm:h-8" src="https://merakiui.com/images/logo.svg" alt=""> */}
-
-                    <h1 className="mt-3 text-2xl font-semibold text-gray-800 capitalize sm:text-3xl dark:text-white">Login</h1>
-
+                    <div className="flex flex-col text-center">
+                        <h1 className="text-5xl font-bold text-blue-500">Welcome</h1>
+                        <h3 className="text-base font-medium text-gray-300 mt-2">Login With Email</h3>
+                    </div>
                     <div className="relative flex items-center mt-8">
                         <span className="absolute">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -48,14 +57,14 @@ const Login = () => {
                         </a>
 
                         <div className="mt-6 text-center ">
-                            <a href="#" className="text-sm text-blue-500 hover:underline dark:text-blue-400">
+                            <span href="#" className="text-sm text-blue-500 hover:underline dark:text-blue-400">
                                 <Link to="/register">Don’t have an account yet?  Sign up</Link>
-                            </a>
+                            </span>
                         </div>
                     </div>
                 </form>
             </div>
-        </section>
+        </div>
     );
 };
 

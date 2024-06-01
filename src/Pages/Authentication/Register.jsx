@@ -1,13 +1,21 @@
 import { Link } from "react-router-dom";
+import useAuth from "../../Hooks/useAuth";
+
+import login from '../../assets/picture/travel-1.jpg'
 
 
 const Register = () => {
+    const { createUser } = useAuth();
+    console.log(createUser);
     return (
-        <section className="bg-white dark:bg-gray-900">
-            <div className="container flex items-center justify-center min-h-screen px-6 mx-auto">
-                <form className="w-full max-w-md">
+        <section className="border-purple-400 border-2 flex gap-4 items-center justify-between my-5">
+            <div className="border-2 lg:w-1/2 border-green-700">
+                <img className="object-contain" src={login} alt="" />
+            </div>
+            <div className="Register_container w-full lg:w-1/2 container border-2 border-red-200">
+                <form className="w-full p-12">
                     <div className="flex justify-center mx-auto">
-                        {/* <img className="w-auto h-7 sm:h-8" src="https://merakiui.com/images/logo.svg" alt=""> */}
+                        {/* <img className="w-auto h-7 sm:h-8" src={login} alt="" /> */}
                     </div>
 
                     <div className="flex items-center justify-center mt-6">
@@ -73,9 +81,9 @@ const Register = () => {
                         </button>
 
                         <div className="mt-6 text-center ">
-                            <a href="#" className="text-sm text-blue-500 hover:underline dark:text-blue-400">
+                            <span href="#" className="text-sm text-blue-500 hover:underline dark:text-blue-400">
                                 <Link to="/login">Already have an account?</Link>
-                            </a>
+                            </span>
                         </div>
                     </div>
                 </form>
