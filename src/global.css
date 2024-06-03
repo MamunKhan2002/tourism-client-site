@@ -1,6 +1,6 @@
 .Register_container,
 .login_container {
-    max-height: calc(100vh - (220px + 112px));
+    min-height: calc(100vh - (220px + 112px));
 }
 
 /* Main Design is here... */

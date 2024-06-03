@@ -30,9 +30,11 @@ const Footer = () => {
                     <a className="link link-hover">Cookie policy</a>
                 </nav>
             </div>
+            <div className='h-[1px] bg-slate-700 bg-opacity-35 mb-3'></div>
             <div className='flex justify-center pb-3'>
                 <small>&#169; 2024 Traveler. All rights reserved.</small>
             </div>
+            <div className='h-[1px] bg-slate-700 bg-opacity-35'></div>
         </div>
     );
 };

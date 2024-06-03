@@ -1,12 +1,29 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from '../../assets/Logo/Logo_png-removebg-preview.png'
 
 
 const Navbar = () => {
     const [updateProfile, setUpdateProfile] = useState(false);
+    const [scrolling, setScrolling] = useState(false);
+
+    // Windrow Scrolling , Navbar Animation
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => window.addEventListener("scroll", handleScroll);
+    }, [])
+
+    const handleScroll = () => {
+        if (window.scrollY > 40) {
+            setScrolling(true);
+        }
+        else {
+            setScrolling(false);
+        }
+    }
+
     return (
-        <div className="bg-base-200 ">
+        <div className={`${scrolling ? "top-0 duration-700 z-10" : "-top-20"} sticky bg-white shadow-md `}>
             <div className="Navbar_container navbar relative">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -37,9 +54,10 @@ const Navbar = () => {
                     <div className=" navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1 flex gap-4 font-medium">
                             <NavLink to='/'><li className="cursor-pointer">Home</li></NavLink>
-                            <li className="cursor-pointer">All Tourist Spot</li>
-                            <li className="cursor-pointer">Contact</li>
-                            <li className="cursor-pointer">About Us</li>
+                            <NavLink to='/all-tourist-spot'><li className="cursor-pointer">All Tourist Spot</li></NavLink>
+                            <NavLink to='/contact'><li className="cursor-pointer">Contact</li></NavLink>
+                            <NavLink to='/about'><li className="cursor-pointer">About Us</li></NavLink>
+                            
                         </ul>
                     </div>
                     <div className="avatar cursor-pointer placeholder">
@@ -48,7 +66,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="navbar-end w-fit">
-                        <Link to='/login'><span className="btn bg-blue-500 text-white hover:bg-blue-400">Sing Up</span></Link>
+                        <Link to='/register'><span className="btn bg-blue-500 text-white hover:bg-blue-400">Registration</span></Link>
                     </div>
                 </div>
             </div>
