@@ -6,8 +6,30 @@
 /* Main Design is here... */
 .main_container,
 .footer_container,
+.login_container,
+.register_container,
 .Navbar_container {
     max-width: 1366px;
-    width: 91% !important;
+    width: 97% !important;
     margin-inline: auto;
 }
+
+/* Hero Slider CSS Design */
+.hero_slider {
+    max-height: calc(100vh - 80px);
+    /* min-height: calc(100vh - 80px); */
+}
+
+/* Slider CSS Style */
+.swiper-button-prev{
+    margin-left: 2%;
+    padding: 25px !important;
+    background-color: azure;
+}
+
+.swiper-button-next{
+    margin-right: 2%;
+    padding: 25px !important;
+    background-color: azure;
+}
+

@@ -23,7 +23,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className={`${scrolling ? "top-0 duration-700 z-10" : "-top-20"} sticky bg-white shadow-md `}>
+        <div className={`${scrolling ? "top-0 duration-700 z-10" : "-top-20"} sticky bg-white shadow-md border-b border-black border-opacity-30`}>
             <div className="Navbar_container navbar relative">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -57,7 +57,7 @@ const Navbar = () => {
                             <NavLink to='/all-tourist-spot'><li className="cursor-pointer">All Tourist Spot</li></NavLink>
                             <NavLink to='/contact'><li className="cursor-pointer">Contact</li></NavLink>
                             <NavLink to='/about'><li className="cursor-pointer">About Us</li></NavLink>
-                            
+
                         </ul>
                     </div>
                     <div className="avatar cursor-pointer placeholder">

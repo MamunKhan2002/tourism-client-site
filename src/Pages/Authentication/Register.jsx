@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
-
 import login from '../../assets/picture/register_pic_2.png'
 
 
@@ -8,7 +7,7 @@ const Register = () => {
     const { createUser } = useAuth();
     console.log(createUser);
     return (
-        <div className=" flex gap-4 items-center justify-center lg:justify-between my-6 rounded-3xl overflow-hidden shadow-lg ">
+        <div className="register_container flex gap-4 items-center justify-center lg:justify-between my-6 rounded-3xl overflow-hidden shadow-lg ">
             <div className="h-full hidden lg:flex relative justify-center">
                 <img className="h-full" src={login} alt="register_picture" />
                 <h1 className="absolute top-10 bg-slate-700 w-full py-3 bg-opacity-45 text-center text-2xl text-white font-semibold">TRAVEL IS THE ONLY THING <br /> YOU BY THAT MAKE YOUR RICH</h1>
