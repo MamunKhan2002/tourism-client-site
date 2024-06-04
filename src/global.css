@@ -8,7 +8,8 @@
 .footer_container,
 .login_container,
 .register_container,
-.Navbar_container {
+.Navbar_container,
+.top_destination_container {
     max-width: 1366px;
     width: 97% !important;
     margin-inline: auto;
@@ -21,15 +22,89 @@
 }
 
 /* Slider CSS Style */
-.swiper-button-prev{
+.swiper-button-prev {
     margin-left: 2%;
-    padding: 25px !important;
-    background-color: azure;
 }
 
-.swiper-button-next{
+.swiper-button-next {
     margin-right: 2%;
-    padding: 25px !important;
-    background-color: azure;
 }
 
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 30px !important;
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 5%;
+    /* height: 60px;
+    width: 60px; */
+}
+
+.slider_content_1,
+.slider_content_2,
+.slider_content_3,
+.slider_content_4,
+.slider_content_5 {
+    left: 8%;
+}
+
+/* Our Top Destinations */
+
+
+/* Media Screen here */
+
+@media screen and (min-width: 840px) {
+    .destination_box {
+        justify-content: space-between;
+        width: 150px
+    }
+
+    .top_destination_container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .destination_box {
+        width: 160px;
+    }
+    
+    .destination_1 {
+        height: 160px;
+        width: 160px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 840px) {
+    .destination_box {
+        justify-content: space-between;
+        width: 100px
+    }
+
+    .top_destination_container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .destination_1 {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 640px) {
+    .top_destination_container {
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destination_box {
+        width: 200px;
+    }
+
+    .destination_1 {
+        height: 200px;
+        width: 200px;
+    }
+}
