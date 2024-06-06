@@ -1,5 +1,7 @@
+import ExploreTour from "../../Components/ExploreTour";
 import HeroSection from "../../Components/HeroSection";
 import TopDestinations from "../../Components/TopDestinations";
+
 
 const HomePage = () => {
 
@@ -7,6 +9,7 @@ const HomePage = () => {
         <div>
             <HeroSection />
             <TopDestinations />
+            <ExploreTour />
             {/* Home Page is here... */}
         </div>
     );

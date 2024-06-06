@@ -9,11 +9,13 @@
 .login_container,
 .register_container,
 .Navbar_container,
-.top_destination_container {
+.top_destination_container,
+.Explore_tour_container {
     max-width: 1366px;
     width: 97% !important;
     margin-inline: auto;
 }
+
 
 /* Hero Slider CSS Design */
 .hero_slider {
@@ -48,63 +50,25 @@
     left: 8%;
 }
 
-/* Our Top Destinations */
+/* Explore Tour Design */
+.Explore_content_container {
+    display: flex;
+    flex-direction: row;
+}
 
 
 /* Media Screen here */
 
-@media screen and (min-width: 840px) {
-    .destination_box {
-        justify-content: space-between;
-        width: 150px
-    }
 
-    .top_destination_container {
-        display: flex;
-        justify-content: space-between;
-    }
+@media screen and (min-width:280px) and (max-width:658px) {
 
-    .destination_box {
-        width: 160px;
-    }
-    
-    .destination_1 {
-        height: 160px;
-        width: 160px;
-    }
-}
-
-@media screen and (min-width: 640px) and (max-width: 840px) {
-    .destination_box {
-        justify-content: space-between;
-        width: 100px
-    }
-
-    .top_destination_container {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .destination_1 {
-        height: 100px;
-        width: 100px;
-    }
-}
-
-@media screen and (min-width: 280px) and (max-width: 640px) {
-    .top_destination_container {
-        display: flex;
-        gap: 40px;
+    /* Explore Tour Design */
+    .Explore_content_container {
         flex-direction: column;
-        align-items: center;
+        gap: 20px;
+    }
+    .Visa_container{
+        padding-left: 20px;
     }
 
-    .destination_box {
-        width: 200px;
-    }
-
-    .destination_1 {
-        height: 200px;
-        width: 200px;
-    }
 }
