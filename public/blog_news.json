@@ -1,0 +1,38 @@
+[
+    {
+        "_id": 1,
+        "author_name": "Jane Doe",
+        "author_image": "https://i.ibb.co/3RN1Wqn/authoe-2-1.jpg",
+        "title": "Exploring the Hidden Gems of the Swiss Alps",
+        "description": "Discover the breathtaking beauty of the lesser-known trails in the Swiss Alps. Perfect for adventurous travelers seeking tranquility.",
+        "photo": "https://i.ibb.co/Fg4dzYw/Swiss-Alps-1.jpg",
+        "date_time": "2024-06-06T10:30:00Z"
+    },
+    {
+        "_id": 2,
+        "author_name": "John Smith",
+        "author_image": "https://i.ibb.co/SmjMX66/author-1-1.jpg",
+        "title": "A Culinary Journey Through Italy",
+        "description": "Join us as we explore the rich culinary traditions of Italy, from the vineyards of Tuscany to the pizzerias of Naples.",
+        "photo": "https://i.ibb.co/rFhNBfk/new-zealand-lake-wakatipu-queenstown-to-glenorchy-istk.jpg",
+        "date_time": "2024-06-05T15:45:00Z"
+    },
+    {
+        "_id": 3,
+        "author_name": "Emily Johnson",
+        "author_image": "https://i.ibb.co/nPWBtH1/author-3-1.jpg",
+        "title": "The Magic of New Zealand's South Island",
+        "description": "Experience the enchanting landscapes of New Zealand's South Island, where mountains, lakes, and beaches converge.",
+        "photo": "https://i.ibb.co/sgrj3LP/New-Zealand-s-South-Island.jpg",
+        "date_time": "2024-06-04T09:20:00Z"
+    },
+    {
+        "_id": 4,
+        "author_name": "Michael",
+        "author_image": "https://i.ibb.co/PW6MdNK/author-4-1.jpg",
+        "title": "Cultural Treasures of Japan",
+        "description": "Embark on a journey through Japan's cultural heritage, from ancient temples in Kyoto to the bustling streets of Tokyo.",
+        "photo": "https://i.ibb.co/dcBHhYJ/Treasures-of-Japan.jpg",
+        "date_time": "2024-06-03T12:00:00Z"
+    }
+]

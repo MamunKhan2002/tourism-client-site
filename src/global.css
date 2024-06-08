@@ -10,7 +10,8 @@
 .register_container,
 .Navbar_container,
 .top_destination_container,
-.Explore_tour_container {
+.Explore_tour_container,
+.News_Container {
     max-width: 1366px;
     width: 97% !important;
     margin-inline: auto;
@@ -67,7 +68,8 @@
         flex-direction: column;
         gap: 20px;
     }
-    .Visa_container{
+
+    .Visa_container {
         padding-left: 20px;
     }
 

@@ -19,7 +19,7 @@ import Hero_6 from '../assets/hero_picture/hero_6.jpg'
 const HeroSection = () => {
 
     return (
-        <div className="relative flex items-center">
+        <div className="relative flex items-center overflow-hidden">
             <Swiper
                 autoplay={{
                     delay: 3500,
@@ -31,8 +31,12 @@ const HeroSection = () => {
 
                 className="mySwiper">
                 <SwiperSlide>
-                    <div className="hero_slider relative">
-                        <img className="" src={Hero_3} alt="" />
+                    <div className="hero_slider relative overflow-hidden">
+                        <motion.img
+                            initial={{ scale: 1 }}
+                            whileInView={{ scale: 1.1 }}
+                            transition={{ duration: 6, ease: "linear" }}
+                            className="" src={Hero_3} alt="" />
                         <div className="slider_content_1 flex flex-col justify-center ml-4 md:ml-0 space-y-2 md:space-y-6 h-full absolute top-0">
                             <motion.h1
                                 initial={{ y: -20, opacity: 0 }}
@@ -54,8 +58,12 @@ const HeroSection = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="hero_slider relative">
-                        <img className="" src={Hero_2} alt="" />
+                    <div className="hero_slider relative overflow-hidden">
+                        <motion.img
+                            initial={{ scale: 1.1 }}
+                            whileInView={{ scale: 1 }}
+                            transition={{ duration: 6, ease: "linear" }}
+                            className="" src={Hero_2} alt="" />
                         <div className="slider_content_2 flex flex-col justify-center ml-4 md:ml-0 space-y-2 md:space-y-6 h-full absolute top-0">
                             <motion.h1
                                 initial={{ y: -20, opacity: 0 }}
@@ -77,8 +85,12 @@ const HeroSection = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="hero_slider relative">
-                        <img src={Hero_1} alt="" />
+                    <div className="hero_slider relative overflow-hidden">
+                        <motion.img
+                            initial={{ scale: 1 }}
+                            whileInView={{ scale: 1.1 }}
+                            transition={{ duration: 6, ease: "linear" }}
+                            src={Hero_1} alt="" />
                         <div className="slider_content_3 text-white flex flex-col ml-4 md:ml-0 justify-center space-y-6 h-full absolute top-0">
                             <motion.h1
                                 initial={{ y: -20, opacity: 0 }}
@@ -100,8 +112,12 @@ const HeroSection = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="hero_slider relative">
-                        <img src={Hero_4} alt="" />
+                    <div className="hero_slider relative overflow-hidden">
+                        <motion.img
+                            initial={{ scale: 1.1 }}
+                            whileInView={{ scale: 1 }}
+                            transition={{ duration: 6, ease: "linear" }}
+                            src={Hero_4} alt="" />
                         <div className="slider_content_4 text-white flex flex-col ml-4 md:ml-0 justify-center space-y-6 h-full absolute top-0">
                             <motion.h1
                                 initial={{ y: -20, opacity: 0 }}
@@ -123,8 +139,12 @@ const HeroSection = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="hero_slider relative">
-                        <img src={Hero_5} alt="" />
+                    <div className="hero_slider relative overflow-hidden">
+                        <motion.img
+                            initial={{ scale: 1 }}
+                            whileInView={{ scale: 1.1 }}
+                            transition={{ duration: 6, ease: "linear" }}
+                            src={Hero_5} alt="" />
                         <div className="slider_content_5 text-white flex flex-col ml-4 md:ml-0 justify-center space-y-6 h-full absolute top-0">
                             <motion.h1
                                 initial={{ y: -20, opacity: 0 }}
@@ -146,8 +166,12 @@ const HeroSection = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="hero_slider relative">
-                        <img src={Hero_6} alt="" />
+                    <div className="hero_slider relative overflow-hidden">
+                        <motion.img
+                            initial={{ scale: 1.1 }}
+                            whileInView={{ scale: 1 }}
+                            transition={{ duration: 6, ease: "linear" }}
+                            src={Hero_6} alt="" />
                         <div className="slider_content_5 text-white flex flex-col ml-4 md:ml-0 justify-center space-y-6 h-full absolute top-0">
                             <motion.h1
                                 initial={{ y: -20, opacity: 0 }}
