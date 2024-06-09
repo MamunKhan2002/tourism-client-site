@@ -80,7 +80,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="navbar-end w-fit">
-                        <Link to='/register'><span className="btn bg-blue-500 text-white hover:bg-blue-400">Registration</span></Link>
+                        <Link to='/register'><span className="btn border-[#35A483] bg-[#35A483] text-white hover:bg-[#35A483] ">Registration</span></Link>
                     </div>
                 </div>
             </div>

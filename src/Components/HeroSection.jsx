@@ -52,7 +52,7 @@ const HeroSection = () => {
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 1, ease: "linear" }} >
-                                <button className="btn bg-blue-500 border-blue-500 text-white hover:bg-blue-400 duration-300 font-poppins">Explore More</button>
+                                <button className="btn border-[#35A483] bg-[#35A483] text-white hover:bg-[#35A483] duration-300 font-poppins">Explore More</button>
                             </motion.div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ const HeroSection = () => {
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 1, ease: "linear" }}>
-                                <button className="btn bg-blue-500 border-blue-500 text-white hover:bg-blue-400 duration-300 font-poppins">Explore More</button>
+                                <button className="btn border-[#35A483] bg-[#35A483] text-white hover:bg-[#35A483]  duration-300 font-poppins">Explore More</button>
                             </motion.div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ const HeroSection = () => {
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 1, ease: "linear" }}>
-                                <button className="btn bg-blue-500 border-blue-500 text-white hover:bg-blue-400 duration-300 font-poppins">Explore More</button>
+                                <button className="btn border-[#35A483] bg-[#35A483] text-white hover:bg-[#35A483]  duration-300 font-poppins">Explore More</button>
                             </motion.div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@ const HeroSection = () => {
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 1, ease: "linear" }}>
-                                <button className="btn bg-blue-500 border-blue-500 text-white hover:bg-blue-400 duration-300 font-poppins">Explore More</button>
+                                <button className="btn border-[#35A483] bg-[#35A483] text-white hover:bg-[#35A483]  duration-300 font-poppins">Explore More</button>
                             </motion.div>
                         </div>
                     </div>
@@ -160,7 +160,7 @@ const HeroSection = () => {
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 1, ease: "linear" }}>
-                                <button className="btn bg-blue-500 border-blue-500 text-white hover:bg-blue-400 duration-300 font-poppins">Explore More</button>
+                                <button className="btn border-[#35A483] bg-[#35A483] text-white hover:bg-[#35A483]  duration-300 font-poppins">Explore More</button>
                             </motion.div>
                         </div>
                     </div>
@@ -187,7 +187,7 @@ const HeroSection = () => {
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 1, ease: "linear" }}>
-                                <button className="btn font-poppins bg-blue-500 border-blue-500 text-white hover:bg-blue-400 duration-300">Explore More</button>
+                                <button className="btn font-poppins border-[#35A483] bg-[#35A483] text-white hover:bg-[#35A483]  duration-300">Explore More</button>
                             </motion.div>
                         </div>
                     </div>

@@ -11,7 +11,9 @@
 .Navbar_container,
 .top_destination_container,
 .Explore_tour_container,
-.News_Container {
+.News_Container,
+.Feature_card_container
+{
     max-width: 1366px;
     width: 97% !important;
     margin-inline: auto;
@@ -27,10 +29,12 @@
 /* Slider CSS Style */
 .swiper-button-prev {
     margin-left: 2%;
+    color: #35A483 !important; 
 }
 
 .swiper-button-next {
     margin-right: 2%;
+    color: #35A483 !important; 
 }
 
 .swiper-button-prev:after,

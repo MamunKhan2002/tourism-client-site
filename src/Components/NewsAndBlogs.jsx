@@ -39,7 +39,7 @@ const NewsAndBlogs = () => {
                 </div>
                 <div className="flex gap-2 mt-10 text-xl">
                     <p>Want to see our Recent News & Updates.</p>
-                    <a href="#" className="underline">Click here to View More...</a>
+                    <a href="#" className="underline text-red-400">Click here to View More...</a>
                 </div>
             </div>
         </div>

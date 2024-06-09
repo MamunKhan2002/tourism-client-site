@@ -1,4 +1,5 @@
 import ExploreTour from "../../Components/ExploreTour";
+import FeaturedDestinations from "../../Components/FeaturedDestinations";
 import HeroSection from "../../Components/HeroSection";
 import NewsAndBlogs from "../../Components/NewsAndBlogs";
 import TopDestinations from "../../Components/TopDestinations";
@@ -10,6 +11,7 @@ const HomePage = () => {
         <div>
             <HeroSection />
             <TopDestinations />
+            <FeaturedDestinations />
             <ExploreTour />
             <NewsAndBlogs />
             {/* Home Page is here... */}

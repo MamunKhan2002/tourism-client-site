@@ -15,8 +15,8 @@ const ExploreTour = () => {
                 <img className='lg:absolute w-3/5  absolute right-0 -bottom-3 lg:bottom-0 rounded-2xl' src={exp_img_2} alt="images" />
                 <motion.img
                     initial={{ opacity: 0, x: -500 }}
-                    whileInView={{ opacity: 1, x: 0, duration: 0.3 }}
-                    transition={{ type: "spring", stiffness: 100, duration: 0.9, ease: "linear" }}
+                    whileInView={{ opacity: 1, x: 0, duration: 0.1 }}
+                    transition={{ type: "spring", duration: 3, ease: "linear" }}
                     className='lg:absolute w-3/4 lg:top-0 left-0 rounded-2xl -z-10' src={exp_img_1} alt="images" />
             </div>
             <div className='lg:w-2/4'>
