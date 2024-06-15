@@ -2,10 +2,10 @@
     {
         "_id": 1,
         "author_name": "Jane Doe",
-        "author_image": "https://i.ibb.co/3RN1Wqn/authoe-2-1.jpg",
+        "author_image": "https://i.ibb.co/Hqf0t1n/authoe-2-1.jpg",
         "title": "Exploring the Hidden Gems of the Swiss Alps",
         "description": "Discover the breathtaking beauty of the lesser-known trails in the Swiss Alps. Perfect for adventurous travelers seeking tranquility.",
-        "photo": "https://i.ibb.co/Fg4dzYw/Swiss-Alps-1.jpg",
+        "photo": "https://i.ibb.co/9qBV36J/Great-Wall-of-China.jpg",
         "date_time": "2024-06-06T10:30:00Z"
     },
     {
@@ -19,7 +19,7 @@
     },
     {
         "_id": 3,
-        "author_name": "Emily Johnson",
+        "author_name": "Johnson",
         "author_image": "https://i.ibb.co/nPWBtH1/author-3-1.jpg",
         "title": "The Magic of New Zealand's South Island",
         "description": "Experience the enchanting landscapes of New Zealand's South Island, where mountains, lakes, and beaches converge.",
