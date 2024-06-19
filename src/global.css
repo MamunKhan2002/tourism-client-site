@@ -12,8 +12,8 @@
 .top_destination_container,
 .Explore_tour_container,
 .News_Container,
-.Feature_card_container
-{
+.Feature_card_container,
+.ChooseDestination_Container {
     max-width: 1366px;
     width: 97% !important;
     margin-inline: auto;
@@ -29,12 +29,12 @@
 /* Slider CSS Style */
 .swiper-button-prev {
     margin-left: 2%;
-    color: #35A483 !important; 
+    color: #35A483 !important;
 }
 
 .swiper-button-next {
     margin-right: 2%;
-    color: #35A483 !important; 
+    color: #35A483 !important;
 }
 
 .swiper-button-prev:after,
@@ -60,6 +60,54 @@
     display: flex;
     flex-direction: row;
 }
+
+/*  Choose Your Destination Design Start*/
+
+.Destination_Gallery_Container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+
+    grid-template-areas:
+        "a a a a a a b b b b b b"
+        "c c c c c d d d d e e e"
+        "f f f f f g g g g g g g"
+    ;
+}
+
+.img_card_1 {
+    grid-area: a;
+}
+
+.img_card_2 {
+    grid-area: b;
+}
+
+.img_card_3 {
+    grid-area: c;
+}
+
+.img_card_4 {
+    grid-area: d;
+}
+
+.img_card_5 {
+    grid-area: e;
+}
+
+.img_card_6 {
+    grid-area: f;
+}
+
+.img_card_7 {
+    grid-area: g;
+}
+
+/*  Choose Your Destination Design End*/
+
+
+
 
 
 /* Media Screen here */

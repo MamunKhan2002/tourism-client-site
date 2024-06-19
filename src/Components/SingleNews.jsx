@@ -12,7 +12,7 @@ const SingleNews = ({ singleNewsCard }) => {
             <div className="card-body">
                 <h2 className="text-base font-poppins font-semibold">{title}</h2>
                 <p className="">{description.slice(0, 100)}</p>
-                <div className="flex gap-2 border-2 border-[#35A483] border-opacity-35 justify-between items-center bg-white shadow-md w-9/12 rounded-full p-2 absolute  top-8 left-2/4 transform -translate-x-2/4 ">
+                <div className="flex gap-2clear border-2 border-[#35A483] border-opacity-35 justify-between items-center bg-white shadow-md w-9/12 rounded-full p-2 absolute  top-8 left-2/4 transform -translate-x-2/4 ">
                     <div className='flex gap-2 justify-start items-center'>
                         <img className="w-[35px] h-[35px] rounded-full" src={author_image} alt="author_image" />
                         <p className="text-base font-normal font-poppins">{author_name}</p>

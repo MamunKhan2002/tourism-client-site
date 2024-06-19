@@ -1,3 +1,4 @@
+import ChooseDestination from "../../Components/ChooseDestination";
 import ExploreTour from "../../Components/ExploreTour";
 import FeaturedDestinations from "../../Components/FeaturedDestinations";
 import HeroSection from "../../Components/HeroSection";
@@ -13,6 +14,7 @@ const HomePage = () => {
             <TopDestinations />
             <FeaturedDestinations />
             <ExploreTour />
+            <ChooseDestination />
             <NewsAndBlogs />
             {/* Home Page is here... */}
         </div>
